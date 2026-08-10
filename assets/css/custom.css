@@ -1,0 +1,476 @@
+
+/* use font link */@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap');
+body {  
+font-size:16px;  color:#5d5d66;  line-height:26px;  font-weight:400;  background:#ffffff;  font-family: 'Ubuntu', sans-serif;  
+background-size:cover;  background-repeat:no-repeat;  background-position:center top;  -webkit-font-smoothing: antialiased;}
+/*nan bar*/
+.inner-nav ul li a:hover, .inner-nav ul li a.active {
+    color: #ff000a;
+}
+
+.service-section{position: relative;display: block;padding: 93px 0px 100px 0px;}
+.sec-title {position: relative;display: block;}
+.sec-title h1 {position: relative;display: block;font-size: 40px;line-height: 46px;color: #192d66;font-weight: 700;margin-bottom: 10px;}
+.sec-title p {position: relative;display: block;font-size: 16px;line-height: 28px;color: #666666;font-weight: 400;}
+.centred {text-align: center;}
+.service-section .sec-title {margin-bottom: 37px;}
+.inner-nav ul li a {color: #fff;font-size: 12px;}
+.small-height .inner-nav ul li a {color: #fff; font-size: 12px;}
+.small-height{background-color: #000;}
+.nav-logo-wrap .logo {max-width: 180px;}
+
+.home-text {text-align: left;
+    position: relative;
+    line-height: 1;
+    display: block;
+    left:356px;
+    top: 142px;
+    background-color: #ff00002e;
+}
+.fiber{font-size: 102px;    font-weight: 900;}
+.sub_font{font-size: 50px;    font-weight: 500;}
+.text-special { position:relative; width: 400px;left:0px;}
+.text-special strong {  color: #ffc229;
+    font-size: 328px;
+    font-weight: normal;}
+.top-page-section{z-index:8;}
+.text-special> span {
+ color: #ffffff;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 6px;
+    left: 192px;
+    /* line-height: 29px; */
+    position: absolute;
+    top: 109px;
+    padding-top: 75px;
+    padding-left: 20px;}
+.text-special > span strong {
+color: #ffffff;    
+font-family: 'Lato', sans-serif !important;
+font-size: 17px !important;  
+line-height: 21px;
+padding-top: 75px;
+padding-left: 2px;}
+.home-text span strong{
+font-size: 20px; 
+color: #ffffff;}
+a {text-decoration: none;
+transition: all 500ms ease;    
+-moz-transition: all 500ms ease;
+-webkit-transition: all 500ms ease;
+-ms-transition: all 500ms ease; 
+-o-transition: all 500ms ease;}	
+
+.top-page-section{padding:140px 0!important;}
+.containBox{width: 70%;float: left;background-color: whitesmoke;}
+	.firstBox,.secondBox{width:100%;float:left;transition: all 0.5s ease-out 0s;}
+	.containBox P{padding: 26px;}
+	.contxt P{padding: 53px 14px;
+        font-size: 18px;
+        line-height: 1.8;
+        color: #2c0303;}
+.thirdBox img{height:538px;transition: all 0.5s ease-out 0s; }
+.thirdBox{width: 30%;
+    float: left; }
+.imgBox .col-sm-6,.pm-0{padding:0;margin:0;}
+
+.conimg{ transition: all 0.5s ease-out 0s;	overflow: hidden; padding: 0;}
+	.imgBox img{width: 100%;height: 269px;transition: all 0.5s ease-out 0s;}
+	.conimg:hover  img{transform: scale(1.1);}
+	.contxt{height: 269px;transition: all 0.7s ease-out 0s;background-color: #808587;}
+	.contxt:hover {background: #041d63;}
+	.contxt:hover p {color:#fff;}
+	
+	.frontlink{visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;}
+.firstBox::before {
+   
+   width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+    border-left: 20px solid #0c0c0c;
+    border-bottom: 10px solid transparent;
+    top:278px;
+    content: "";
+    left: 35.3%;
+     position: absolute;
+    z-index: 999;
+}
+.secondBox .contxt::after {
+   width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #101010;
+    border-bottom: 10px solid transparent;
+    top: 163px;
+    content: "";
+    right: 0px;
+    position: absolute;
+    z-index: 9999;
+}
+.foruthBox .contxt::before {
+   width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+    border-left: 20px solid #745539;
+    border-bottom: 10px solid transparent;
+    top: 232px;
+    content: "";
+    left: 0px;
+    position: absolute;
+   
+}
+.thirdBoxcnt::before {
+    width: 0;
+    height: 0;
+    border-top: 16px solid #f1bf93;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: 0;
+    content: "";
+    left: 244px;
+    position: absolute;
+    
+}
+.pd-47-10{    padding: 47px 10px;}
+/*============titleBox================*/
+.bg-dark-alfa-50:before, .bg-dark-alfa-50 .YTPOverlay:before {z-index: 0;}
+.titleBox h2{    TEXT-TRANSFORM: UPPERCASE;font-size: 45px;color: white;/*text-shadow: 4px 0px 0px #000000;*/
+    font-weight: 900;text-align: center;padding: 20% 0 0 0;
+}
+.subTitle{ font-size: 37px;font-weight: 900;text-decoration: underline;margin-top: 0;}
+
+.service-block.welcome{background-image:url(../images/jai/home-welcome.jpg);}
+.service-block.greenpolicy{background-image:url(../images/jai/jai-textiles-green-policy-home.jpg);}
+.service-block.weaving{background-image:url(../images/jai/jai-textiles-weaving.jpg);}
+.service-block.yarndyeing{background-image:url(../images/jai/jai-textiles-yarn-dyeing.jpg);}
+.service-block {overflow: hidden;
+height: 300px;width: 46%;
+transition: 1s;
+margin: 22px 22px 22px 22px;
+text-decoration:none;
+position: relative;
+filter:grayscale(100%);
+background-size: cover;
+background-position: 63%;
+}
+.serviceHeading h2{
+position: relative;
+top: 174px;
+background-color: #000000a6;
+color: #fff;
+padding: 5px 0 5px 107px;
+font-weight: 900;
+text-transform: capitalize;
+transition:1s;}
+.service-block:hover {filter:grayscale(0%);text-decoration:none;}
+.service-block:hover .serviceHeading h2{padding: 96px 0 96px 176px;top:0px; font-size:50px;background-color:#f105052e;}
+.specialityProducts{
+	      width: 24%;
+    background-color: red;
+    height:280px;
+    float: left;
+    margin: 3px 3px 0 0;
+	overflow:hidden;
+}
+.sec-title h2{padding:28px;}
+.specialityProducts img{width: 100%;height: 100%;transition: all .2s ease-in-out;}
+.specialityProducts:hover img{transform: scale(1.5);} 
+
+.yarn_dyeing_img img{width:100%;}
+.weaving_img img{width:100%;position: relative;left: 396px;}
+
+.product-dyeing-txt{
+background-color: #eae9e9;
+    padding: 40px;
+    position: relative;
+    color: #fff;
+    border: double 5px #e0e0e0;
+}
+
+.product-dyeing-txt:nth-child(odd)
+{
+width: 50%;
+    z-index: 1;
+    position: absolute;
+    left: 15px;
+    bottom: 54px;
+    height: 200px;
+    padding: 14px;
+	    background-color: #e7efef9e;
+}
+.product-dyeing-txt h3
+{
+margin-bottom: 18px;
+line-height: 1;
+font-weight: 500;
+color:#000;}
+.product-dyeing-txt .text
+{text-align: justify;
+    color: #0e0e0e;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 15px;
+}
+.product-dyeing-txt:nth-child(even)
+ {
+    width: 50%;
+    position: absolute;
+    top:200px;
+    height: 200px;
+    right: 10px;
+	padding:14px;
+	 background-color: #e7efef9e;
+	}
+/*=======================*/
+.cert_logo img{width:180px;}
+.cert_logo{text-align:center;}
+.inner-box{background:#fff;}
+.certification{
+	display:grid;
+	grid-template-columns:auto auto auto auto auto;
+}
+
+.ourClients .alt-features-icon{background-color: #e8e7e7;    padding: 1px;}
+.ourClients .alt-features-icon img{opacity: 0.8; filter: grayscale(50%);}
+.ourClients .alt-features-icon:hover img{opacity:1;}
+
+.footer h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-weight: 400;color: #c3bfbf;
+}
+.company-logo-footer{ padding: 88px 0;}
+.footer-content {text-align:left;
+font-size: 14px;
+    width: 83%;
+    float: left;
+    margin-left: 65px;}
+.footer-content i{padding:8px;}
+.footer-content ul{list-style-type:none;}
+.list-icons li, .list li {
+    padding: 5px 0;
+}
+.footer a:hover {
+    color: #ed1c24;
+    text-decoration: none;
+}
+.list-icons li i {
+    min-width: 25px;
+    text-align: center;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+.sidebar-title{
+    background: #ed1c24;
+    padding: 12px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+}
+
+.sidebar-widget li {
+	list-style-type:none;
+	padding: 16px 0px;
+border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: relative;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.sidebar-widget li:hover {
+    letter-spacing: 3px;
+    background-color: #000;
+    color: #fff;
+}
+.sidebar-widget li:hover a {
+color: #fff;}
+.sidebar-widget ul{
+	margin: 0;
+    padding: 0;
+}
+.sidebar-widget li i {padding: 0px 21px 0px 7px;}
+
+	p{
+    text-align: justify;
+    letter-spacing: 0.5px;
+    word-spacing: 6px;
+    line-height: 1.5;
+    color: #4c4b4a;
+	margin: 0 0 1em 0;}
+	h1{    font-size: 32px;
+    font-weight: 900;
+    color: #424242;
+	text-decoration: underline;}
+	.inner-nav ul li a {
+    font-weight:bold;}
+.side_bar{background-image:url("../images/jai/jai-textile.jpg");background-size: cover;}
+.side_bar_greenpolicy{background-image:url("../images/jai/jai-textile-green-policy.jpg");background-size: cover;min-height: 700px;}
+
+.tpl-tabs li. a {
+    color: #636060;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.tpl-tabs li.active a {
+    color: #636060;
+    font-size: 13px;
+    font-weight: 900;
+}
+.tab-content  ul li{ 
+       list-style-type: none;
+    float: left;
+    margin: 1px 5px;
+    background: #5454bf;
+    padding: 0px 5px;
+    color: #fff;
+}
+.clients{padding: 16px 0;
+    font-weight: 900;}
+	
+	
+	.bottom_btn .btn-large{    padding:7px 45px;
+    font-size: 13px;
+    font-weight: bolder;}
+	
+	.bottom_btn .btn-mod.btn-border:hover, .btn-mod.btn-border:focus {
+    color: #fff;
+    border-color: transparent;
+    background: #ed1c24;
+    font-size: 13px;
+    font-weight: bolder;}
+	.ul_content li{font-weight: 500;   
+    letter-spacing: 0.5px;
+    word-spacing: 6px;
+    color: #4c4b4a;}
+	.tab-pane ul, ol {
+    margin: 0 0 1.5em 0;
+    width: 100%;
+    float: left;
+}
+/*==================about================================*/
+.pd-0{padding:0px;}
+.pb-9{ padding-bottom: 9px;}
+.pt-20{padding-top: 20px;}
+
+.aboutImgBox{    background: #f3f1f1;}
+.aboutImgBox img{      padding:62px 0;}
+.missionVision .vTxt{text-align: center;background-color: #293d50;color: #fff;padding: 9px;margin-top: 0;}
+.con p{    padding: 30px;line-height: 1.6;word-spacing: 3px;}
+.imgmv{height: 306px;}
+.dwTab .nav-tabs>li {
+    float: none;
+    margin-bottom: 0px; 
+	padding:56px 5px 23px 387px;
+}
+.dwTab .nav-tabs>li a{padding: 14px;
+background-color: #efefef;
+    border-radius: 0;
+    color: #525252;
+    font-size: 14px;
+    font-weight: 900;}
+
+.dwTab .tpl-minimal-tabs li.active a,.dwTab .tpl-minimal-tabs li.active a:hover {
+    border: 1px solid #ff7804;
+    background: #ff7804;
+    color: #000;
+    cursor: default;padding: 14px;font-size: 14px;
+    font-weight: 900;
+}
+.dwTab .tpl-minimal-tabs li a:hover{ background: #ff7804;color: #000;}
+.dwTab{background-image:url(../images/jai/jai-textile-yarn-deying-and-weaving.jpg);background-size: cover;height: 300px;}
+.dwTab .tab-content{padding: 52px 2px;} 
+.mobile-nav .fa {color:#fff;}
+.mobile-nav:hover, .mobile-nav.active, .mobile-nav .fa {color:red;}
+/*==================yarn dyeing================================*/
+.pdT-53{padding-top:53px;}
+		.sLetterY{   font-size: 450px;
+    text-transform: capitalize;
+    color: #ed1c24;
+    position: absolute;
+    left: 52px;
+    z-index: 9;
+    font-family: Signika;
+    top: 100px;}
+.sLetterW{  font-size: 400px;
+    text-transform: capitalize;
+    color: #ed1c24;
+    position: absolute;
+    left: -56px;
+    z-index: 9;
+    font-family: Signika;
+    top: 132px;}
+.bottom_btn .btn-mod.btn-border {
+    color: #151515;
+    border: 1px solid #e6e6e6;
+    
+}	
+.bg-gray{    background-color: #f7f7f7;}
+.quot{font-weight: 500;}
+	
+/*==================infra================================*/	
+	
+	.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+.pt-60{padding: 60px 0 0 0;}
+.pt-60{padding: 60px 0 0 0;}
+
+/* The colour of the indicators */
+#owl-demo .item{
+  
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.cusNav{
+  text-align: center;
+}
+/*use styles below to disable ugly selection*/
+.cusNav a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*==================infra================================*/
+	
+
+	/*==============green-policy======================*/
+	.randd{
+		background-image:url("../images/jai/greenpolicy/jai-textile-environment-focus.jpg");
+		background-size: cover;
+		color: #fff;
+	}
+	.mt0{margin-top:0;}
+	.bgClr{background-color: #0173189e;}
+	.randd .bgBox{padding: 57px 82px;}
+	.randd  .bgBox p,h3{color: #fff;}
+	.randd .bgBox  h3{font-weight:700;}
+	.jtWaterPlant .wpimgBox{
+	width: 100%;
+    padding: 10px;
+    background-color:#efefef;
+	height: 300px;}
+	.page-section h3{letter-spacing: 3px;
+    color: #e3140a;
+    }
+	.imgTitle{text-align: justify;
+    color: #848080;}
+	/*==============green-policy======================*/
+	/*==============product======================*/
+	.work-item{    padding: 10px;}
+    .clientLogo{ padding: 10px;
+    border: 1px solid #bfb7b7b0;}
