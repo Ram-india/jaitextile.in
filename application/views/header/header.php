@@ -59,7 +59,7 @@ Page Loader -->
 				<div class="inner-nav desktop-nav">  
 					<ul class="clearlist">		
 						<li><a href="<?php echo base_url();?>">HOME</a></li>	
-						<li><a href="<?php echo base_url();?>">ABOUT US</a></li>
+						<li><a href="<?php echo base_url();?about>">ABOUT US</a></li>
 						<li> <a href="#" class="mn-has-sub">OVERVIEW </a>  
 							<ul class="mn-sub"> 
 								<li><a href="<?php echo base_url();?>yarn-dyeing">YARN DYEING</a> </li>
@@ -68,7 +68,7 @@ Page Loader -->
 							</ul>    
 						</li>	
 						<!---<li><a href="<?php echo base_url();?>products">PRODUCTS</a></li>--->
-						<li><a href="<?php echo base_url();?>recogintion">RECOGNITION</a></li>
+						<li><a href="<?php echo base_url();?>recognition">RECOGNITION</a></li>
 						<li><a href="<?php echo base_url();?>green-policy">GREEN POLICY</a></li>
 						<li><a href="<?php echo base_url();?>careers">CAREERS</a></li>
 						<li><a href="<?php echo base_url();?>contact">CONTACT US</a></li>
