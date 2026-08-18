@@ -61,7 +61,7 @@
 						
 							
 						
-							<a href="<?php echo base_url();?>welcome/about" class="col-lg-6 col-md-12 col-sm-12 service-block welcome  wow fadeInLeft animated frontlink" data-wow-delay="00ms" data-wow-duration="1500ms" style="" >
+							<a href="<?php echo base_url();?>about" class="col-lg-6 col-md-12 col-sm-12 service-block welcome  wow fadeInLeft animated frontlink" data-wow-delay="00ms" data-wow-duration="1500ms" style="" >
 								<div class="service-block-one">
 									<div class="serviceHeading">
 										<h2>welcome</h2>
@@ -71,7 +71,7 @@
 							
 						
 							</a>
-							<a href="<?php echo base_url();?>welcome/yarndyeing" class="col-lg-6 col-md-12 col-sm-12 service-block yarndyeing wow fadeInLeft animated frontlink" data-wow-delay="00ms" data-wow-duration="1500ms"  >
+							<a href="<?php echo base_url();?>yarndyeing" class="col-lg-6 col-md-12 col-sm-12 service-block yarndyeing wow fadeInLeft animated frontlink" data-wow-delay="00ms" data-wow-duration="1500ms"  >
 								<div class="service-block-one">
 									<div class="serviceHeading">
 										<h2>Yarn Dyeing</h2>
@@ -79,14 +79,14 @@
 								</div>
 							</a>
 							
-							<a href="<?php echo base_url();?>welcome/weaving" class="col-lg-6 col-md-12 col-sm-12 service-block weaving wow fadeInRight animated frontlink" data-wow-delay="00ms" data-wow-duration="1500ms"  >
+							<a href="<?php echo base_url();?>weaving" class="col-lg-6 col-md-12 col-sm-12 service-block weaving wow fadeInRight animated frontlink" data-wow-delay="00ms" data-wow-duration="1500ms"  >
 								<div class="service-block-one ">
 									<div class="serviceHeading">
 										<h2>Weaving</h2>
 									</div>
 								</div>
 							</a>
-							<a href="<?php echo base_url();?>welcome/greenpolicy" class="col-lg-6 col-md-12 col-sm-12 service-block greenpolicy wow fadeInLeft animated frontlink" data-wow-delay="00ms" data-wow-duration="1500ms"  >
+							<a href="<?php echo base_url();?>greenpolicy" class="col-lg-6 col-md-12 col-sm-12 service-block greenpolicy wow fadeInLeft animated frontlink" data-wow-delay="00ms" data-wow-duration="1500ms"  >
 								<div class="service-block-one ">
 									<div class="serviceHeading">
 										<h2>Green policy</h2>
