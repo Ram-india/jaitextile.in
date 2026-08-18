@@ -8,7 +8,7 @@
 <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
  <!-- Favicons --> 
-<link rel="shortcut icon" href="images/favicon.png"> 
+<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/images/favicon.png">
 <!-- CSS -->       
  
 <link href="https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap" rel="stylesheet">
@@ -58,20 +58,20 @@ Page Loader -->
 				<!-- Main Menu -->
 				<div class="inner-nav desktop-nav">  
 					<ul class="clearlist">		
-						<li><a href="<?php echo base_url();?>welcome/index">HOME</a></li>	
-						<li><a href="<?php echo base_url();?>welcome/about">ABOUT US</a></li>
+						<li><a href="<?php echo base_url();?>">HOME</a></li>	
+						<li><a href="<?php echo base_url();?>">ABOUT US</a></li>
 						<li> <a href="#" class="mn-has-sub">OVERVIEW </a>  
 							<ul class="mn-sub"> 
-								<li><a href="<?php echo base_url();?>welcome/yarndyeing">YARN DYEING</a> </li>
-								<li><a href="<?php echo base_url();?>welcome/weaving">WEAVING</a></li>
-								<!---<li><a href="<?php echo base_url();?>welcome/infra">INFRA</a> </li> --->
+								<li><a href="<?php echo base_url();?>yarndyeing">YARN DYEING</a> </li>
+								<li><a href="<?php echo base_url();?>weaving">WEAVING</a></li>
+								<!---<li><a href="<?php echo base_url();?>infra">INFRA</a> </li> --->
 							</ul>    
 						</li>	
-						<!---<li><a href="<?php echo base_url();?>welcome/products">PRODUCTS</a></li>--->
-						<li><a href="<?php echo base_url();?>welcome/recogintion">RECOGNITION</a></li>
-						<li><a href="<?php echo base_url();?>welcome/greenpolicy">GREEN POLICY</a></li>
-						<li><a href="<?php echo base_url();?>welcome/careers">CAREERS</a></li>
-						<li><a href="<?php echo base_url();?>welcome/contactus">CONTACT US</a></li>
+						<!---<li><a href="<?php echo base_url();?>products">PRODUCTS</a></li>--->
+						<li><a href="<?php echo base_url();?>recogintion">RECOGNITION</a></li>
+						<li><a href="<?php echo base_url();?>greenpolicy">GREEN POLICY</a></li>
+						<li><a href="<?php echo base_url();?>careers">CAREERS</a></li>
+						<li><a href="<?php echo base_url();?>contactus">CONTACT US</a></li>
 					</ul> 
 				</div>
 				<!-- End Main Menu --> 

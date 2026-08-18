@@ -52,3 +52,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+
+$route['about'] = 'welcome/about';
+$route['yarn-dyeing'] = 'welcome/yarndyeing';
+$route['weaving'] = 'welcome/weaving';
+$route['infrastructure'] = 'welcome/infra';
+$route['products'] = 'welcome/products';
+$route['recognition'] = 'welcome/recogintion';
+$route['green-policy'] = 'welcome/greenpolicy';
+$route['careers'] = 'welcome/careers';
+$route['contact'] = 'welcome/contactus';
+
