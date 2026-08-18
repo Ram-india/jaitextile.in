@@ -47,7 +47,7 @@ Page Loader -->
 			<div class="full-wrapper relative clearfix"> 
 							<!-- Logo ( * your text or image into link tag *) -->     
 				<div class="nav-logo-wrap local-scroll">
-					<a href="#" class="logo">
+					<a href="<?php echo base_url();?>" class="JaiTextile_logo">
 						<img src="<?php echo base_url();?>assets/images/logo-dark.png" alt="jai texile" /> 
 					</a>
 				</div> 
