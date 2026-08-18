@@ -71,7 +71,7 @@
 							
 						
 							</a>
-							<a href="<?php echo base_url();?>yarndyeing" class="col-lg-6 col-md-12 col-sm-12 service-block yarndyeing wow fadeInLeft animated frontlink" data-wow-delay="00ms" data-wow-duration="1500ms"  >
+							<a href="<?php echo base_url();?>yarn-dyeing" class="col-lg-6 col-md-12 col-sm-12 service-block yarndyeing wow fadeInLeft animated frontlink" data-wow-delay="00ms" data-wow-duration="1500ms"  >
 								<div class="service-block-one">
 									<div class="serviceHeading">
 										<h2>Yarn Dyeing</h2>
@@ -86,7 +86,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="<?php echo base_url();?>greenpolicy" class="col-lg-6 col-md-12 col-sm-12 service-block greenpolicy wow fadeInLeft animated frontlink" data-wow-delay="00ms" data-wow-duration="1500ms"  >
+							<a href="<?php echo base_url();?>green-policy" class="col-lg-6 col-md-12 col-sm-12 service-block greenpolicy wow fadeInLeft animated frontlink" data-wow-delay="00ms" data-wow-duration="1500ms"  >
 								<div class="service-block-one ">
 									<div class="serviceHeading">
 										<h2>Green policy</h2>

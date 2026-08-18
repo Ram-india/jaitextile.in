@@ -62,16 +62,16 @@ Page Loader -->
 						<li><a href="<?php echo base_url();?>">ABOUT US</a></li>
 						<li> <a href="#" class="mn-has-sub">OVERVIEW </a>  
 							<ul class="mn-sub"> 
-								<li><a href="<?php echo base_url();?>yarndyeing">YARN DYEING</a> </li>
+								<li><a href="<?php echo base_url();?>yarn-dyeing">YARN DYEING</a> </li>
 								<li><a href="<?php echo base_url();?>weaving">WEAVING</a></li>
 								<!---<li><a href="<?php echo base_url();?>infra">INFRA</a> </li> --->
 							</ul>    
 						</li>	
 						<!---<li><a href="<?php echo base_url();?>products">PRODUCTS</a></li>--->
 						<li><a href="<?php echo base_url();?>recogintion">RECOGNITION</a></li>
-						<li><a href="<?php echo base_url();?>greenpolicy">GREEN POLICY</a></li>
+						<li><a href="<?php echo base_url();?>green-policy">GREEN POLICY</a></li>
 						<li><a href="<?php echo base_url();?>careers">CAREERS</a></li>
-						<li><a href="<?php echo base_url();?>contactus">CONTACT US</a></li>
+						<li><a href="<?php echo base_url();?>contact">CONTACT US</a></li>
 					</ul> 
 				</div>
 				<!-- End Main Menu --> 
