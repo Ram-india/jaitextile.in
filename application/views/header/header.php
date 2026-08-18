@@ -59,7 +59,7 @@ Page Loader -->
 				<div class="inner-nav desktop-nav">  
 					<ul class="clearlist">		
 						<li><a href="<?php echo base_url();?>">HOME</a></li>	
-						<li><a href="<?php echo base_url();?>about>">ABOUT US</a></li>
+						<li><a href="<?php echo base_url();?>about">ABOUT US</a></li>
 						<li> <a href="#" class="mn-has-sub">OVERVIEW </a>  
 							<ul class="mn-sub"> 
 								<li><a href="<?php echo base_url();?>yarn-dyeing">YARN DYEING</a> </li>
